@@ -1,0 +1,9 @@
+ esc_time= parser.parse(x[2])
+    esc_time = esc_time + timedelta( minutes = 5)
+    esc_time  = str(esc_time)
+    print x[2]
+    print esc_time
+
+  esc_time = datetime.strftime(x[2], '%d/%m/%Y  %H:%M')
+
+  + "\r\n"
